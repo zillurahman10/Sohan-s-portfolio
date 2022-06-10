@@ -14,10 +14,10 @@ const Header = () => {
                     </label>
                 </div>
                 <div className="flex-none gap-2">
-                    <p className='mx-5 font-bold'>Home</p>
-                    <p className='mx-5 font-bold'>Hobbies</p>
-                    <p className='mx-5 font-bold'>Skills</p>
-                    <p className='mx-5 font-bold'></p>
+                    <a href='' className='mx-5 font-bold'>Home</a>
+                    <a href='' className='mx-5 font-bold'>Hobbies</a>
+                    <a href='' className='mx-5 font-bold'>Skills</a>
+                    <a href='' className='mx-5 font-bold'></a>
                 </div>
             </div>
         </div>
