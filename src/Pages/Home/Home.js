@@ -1,14 +1,14 @@
 import React from 'react';
 import AboutMe from './AboutMe';
 import Banner from './Banner';
-import MyCrafts from './MyCrafts';
+import MyProjects from './MyProjects'
 
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
             <AboutMe></AboutMe>
-            <MyCrafts></MyCrafts>
+            <MyProjects></MyProjects>
         </div>
     );
 };
