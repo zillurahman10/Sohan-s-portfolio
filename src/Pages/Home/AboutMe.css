@@ -1,7 +1,29 @@
 .text {
-    width: 50%;
+    width: 500px;
 }
 
 .img-div {
     width: 400px;
+}
+
+.sohan-pro-photo {
+    border-radius: 20px;
+    position: relative;
+    bottom: 50px;
+    filter: grayscale(100%);
+}
+
+.sohan-pro-photo:hover {
+    transition: 1s;
+    filter: grayscale(0%);
+}
+
+.sohan-pro-photo:hover::after {
+    transition: 0.5s;
+    filter: grayscale(0%);
+}
+
+.container-div {
+    margin: 0 200px;
+    margin-bottom: 300px;
 }

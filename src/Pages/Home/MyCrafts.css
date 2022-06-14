@@ -1,0 +1,13 @@
+.crafts {
+    filter: grayscale(100%);
+}
+
+.crafts:hover {
+    transition: 0.5s;
+    filter: grayscale(0%);
+}
+
+.crafts:hover::after {
+    transition: 0.5s;
+    filter: grayscale(0%);
+}
