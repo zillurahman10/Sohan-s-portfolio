@@ -10,7 +10,9 @@ const Header = () => {
                 <div className="flex-1">
                     <label tabIndex="0" className="btn btn-ghost btn-circle avatar">
                         <div className="w-24 rounded-full">
-                            <img src={logo} />
+                            <Link to='/'>
+                                <img src={logo} alt='' />
+                            </Link>
                         </div>
                     </label>
                 </div>
@@ -19,7 +21,8 @@ const Header = () => {
                     <a href='' className='mx-5 font-bold'>Hobbies</a>
                     <a href='' className='mx-5 font-bold'>Skills</a>
                     <a href='' className='mx-5 font-bold'></a> */}
-                    <Link className='mx-2 font-bold' to='/'>Blogs</Link>
+                    <Link className='mx-2 font-bold' to='/blogs'>Blogs</Link>
+                    <a href='https://drive.google.com/file/d/1r9s-ZqSZo38PmIeXDk5y7XE1SCZUIomQ/view?usp=sharing' target='_blank' className='btn btn-primary btn-outline mx-2'>Get Resume</a>
                 </div>
             </div>
         </div>
